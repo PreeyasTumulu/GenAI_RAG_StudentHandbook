@@ -1,0 +1,110 @@
+[
+  {
+    "id": "V01",
+    "question": "What is the minimum fine for offence 20.1 (keeping explosives, arms, narcotics or alcohol on campus)?",
+    "answer": "The minimum fine for offence 20.1 is Rs 10,000 + community service for one term.",
+    "reference": "Fine of Rs 10,000 plus community service for one term.",
+    "image_used": "C:\\VU\\4th_Year\\Independence Term 1\\GenerativeAI\\ENDTERM\\GenAI_RAG_StudentHandbook\\data\\tables\\page_15_table.png",
+    "latency_seconds": 1.53,
+    "correctness": 1.0
+  },
+  {
+    "id": "V02",
+    "question": "How many repetitions of offence 20.2 (entering campus inebriated) are allowed before the maximum punishment applies, and what happens to the fine each time?",
+    "answer": "According to the image, offence 20.2 (entering the campus in an inebriated state) allows for a maximum of 3 repetitions. Each time the fine shall be multiplied by 2.",
+    "reference": "3 repetitions; the fine is multiplied by 2 each time.",
+    "image_used": "C:\\VU\\4th_Year\\Independence Term 1\\GenerativeAI\\ENDTERM\\GenAI_RAG_StudentHandbook\\data\\tables\\page_15_table.png",
+    "latency_seconds": 17.5,
+    "correctness": 1.0
+  },
+  {
+    "id": "V03",
+    "question": "What offence number and type is 'Any kind of violence'?",
+    "answer": "20.8 - Major",
+    "reference": "Offence 20.8, a Major offence.",
+    "image_used": "C:\\VU\\4th_Year\\Independence Term 1\\GenerativeAI\\ENDTERM\\GenAI_RAG_StudentHandbook\\data\\tables\\page_15_table.png",
+    "latency_seconds": 19.88,
+    "correctness": 1.0
+  },
+  {
+    "id": "V04",
+    "question": "What punishment is specified for offence 20.10, Ragging?",
+    "answer": "According to the table, the punishment for Ragging (20.10) is “Major NA NA To be dealt as per the directions of the UGC”.",
+    "reference": "No fine or repetition count is given (NA/NA); it is to be dealt with as per the directions of the UGC.",
+    "image_used": "C:\\VU\\4th_Year\\Independence Term 1\\GenerativeAI\\ENDTERM\\GenAI_RAG_StudentHandbook\\data\\tables\\page_15_table.png",
+    "latency_seconds": 17.36,
+    "correctness": 1.0
+  },
+  {
+    "id": "V05",
+    "question": "What is the fine for offence 20.6 (smoking/vaping or alcohol consumption on campus) and is it Major or Minor?",
+    "answer": "The fine for offence 20.6 is Rs 2000 + community service for 1 month. It is a Minor offence.",
+    "reference": "Minor offence; fine of Rs 2,000 plus community service for 1 month.",
+    "image_used": "C:\\VU\\4th_Year\\Independence Term 1\\GenerativeAI\\ENDTERM\\GenAI_RAG_StudentHandbook\\data\\tables\\page_16_table.png",
+    "latency_seconds": 16.04,
+    "correctness": 1.0
+  },
+  {
+    "id": "V06",
+    "question": "In the offence table row about failing to check in to campus by 9:00 pm, what offence number is shown?",
+    "answer": "20.3",
+    "reference": "No offence number is printed for that row — it is a known extraction/layout defect where the row's number was lost when the table split across pages 16 and 17.",
+    "image_used": "C:\\VU\\4th_Year\\Independence Term 1\\GenerativeAI\\ENDTERM\\GenAI_RAG_StudentHandbook\\data\\tables\\page_17_table.png",
+    "latency_seconds": 19.66,
+    "correctness": 0.0
+  },
+  {
+    "id": "V07",
+    "question": "What fields are on the Hostel Leave Application form?",
+    "answer": "Here are the fields on the Hostel Leave Application form, based on the provided text and image:\n\n*   Student’s Name\n*   Batch\n*   Hostel Room No.\n*   Parents Mobile No.\n*   Reason\n*   Leaving Campus on…\n*   Joining Campus on…\n*   Leave from\n*   Leave to\n*   Leave Address\n*   Mob\n*   Sign of Warden",
+    "reference": "Student's Name, Batch, and duplicate Admin Copy / Student Copy sections for the same fields.",
+    "image_used": "C:\\VU\\4th_Year\\Independence Term 1\\GenerativeAI\\ENDTERM\\GenAI_RAG_StudentHandbook\\data\\tables\\page_10_table.png",
+    "latency_seconds": 20.01,
+    "correctness": 1.0
+  },
+  {
+    "id": "V08",
+    "question": "What version number is this handbook, and who is its approving authority?",
+    "answer": "This handbook is version 1.0, and its approving authority is the Governing Body, with signatures from the President, Vice Chancellor, Pro Vice Chancellor, Registrar, Director Pastoral Care and Sport Infrastructure, and President Student Council of Vijaybhoomi University.",
+    "reference": "Version 1.0; approving authority is the Governing Body.",
+    "image_used": "C:\\VU\\4th_Year\\Independence Term 1\\GenerativeAI\\ENDTERM\\GenAI_RAG_StudentHandbook\\data\\tables\\page_28_table.png",
+    "latency_seconds": 14.76,
+    "correctness": 1.0
+  },
+  {
+    "id": "V09",
+    "question": "List two of the roles credited as developers of handbook version 1.0.",
+    "answer": "The text does not list the developers of the handbook version 1.0. It only provides version information and page references.",
+    "reference": "Any two of: President, Vice Chancellor, Pro Vice Chancellor – Institutional Impact, Registrar, Director Pastoral Care and Sport Infrastructure, President Student Council — all of Vijaybhoomi University.",
+    "image_used": null,
+    "latency_seconds": 12.23,
+    "correctness": 0.0
+  },
+  {
+    "id": "V10",
+    "question": "What is the minimum fine for offence 20.9, damaging institute property?",
+    "answer": "Major Fine of Rs 10,000+",
+    "reference": "Fine of Rs 10,000 plus community service for one term (Major offence).",
+    "image_used": "C:\\VU\\4th_Year\\Independence Term 1\\GenerativeAI\\ENDTERM\\GenAI_RAG_StudentHandbook\\data\\tables\\page_15_table.png",
+    "latency_seconds": 14.72,
+    "correctness": 1.0
+  },
+  {
+    "id": "V11",
+    "question": "What is the fine amount for offence 20.3, entering or exiting campus without signing the movement register?",
+    "answer": "According to the text, the fine amount for offence 20.3 (Entering or exiting the campus without signing in the movement register) is Rs 2,000 + community service for 1 month.",
+    "reference": "Fine of Rs 2,000 plus community service for 1 month (Minor offence).",
+    "image_used": "C:\\VU\\4th_Year\\Independence Term 1\\GenerativeAI\\ENDTERM\\GenAI_RAG_StudentHandbook\\data\\tables\\page_17_table.png",
+    "latency_seconds": 15.85,
+    "correctness": 1.0
+  },
+  {
+    "id": "V12",
+    "question": "What is the title printed on the handbook's front cover, and what is the dominant cover colour?",
+    "answer": "The text does not provide the title or cover color of the handbook. It only states the document is the \"VU Student Handbook, Version 1.0.\"",
+    "reference": "\"STUDENT HAND BOOK\"; the cover is dominantly red/maroon with the VU logo.",
+    "image_used": null,
+    "latency_seconds": 15.75,
+    "correctness": 0.0
+  }
+]
