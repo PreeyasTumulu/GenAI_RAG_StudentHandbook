@@ -1,0 +1,17 @@
+flowchart TD
+    PDF[VU Student Handbook PDF] --> DOC[document.py: extract text + page images]
+    DOC --> EMB[embeddings.py: nomic-embed-text]
+    EMB --> DB[(vector_store.py: shared Chroma index)]
+
+    Q[Question] --> RET[retrieve - same function, same top-k]
+    DB --> RET
+    RET --> CTX[Retrieved chunks - identical for both models]
+
+    CTX --> A[SmolLM2-135M]
+    CTX --> B[Llama 3.2-3B]
+
+    A --> EVAL[evaluation.py]
+    B --> EVAL
+
+    EVAL --> RM[Context Precision / Recall / MRR - from gold pages]
+    EVAL --> GM[Faithfulness / Relevancy / Correctness - gemma3:4b judge]

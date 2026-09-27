@@ -1,0 +1,15 @@
+flowchart TD
+    Q[Visual question] --> RET[retrieve - same Chroma index as Phase 1]
+    RET --> PAGE[Retrieved page + text]
+
+    TABLES[(data/tables/ - pre-made table images)] --> LOOKUP{Does this page<br/>have a table image?}
+    PAGE --> LOOKUP
+
+    LOOKUP -- yes --> BOTH[Text + table image]
+    LOOKUP -- no --> TXT[Text only]
+
+    BOTH --> VLM[gemma3:4b]
+    TXT --> VLM
+
+    VLM --> ANS[Answer]
+    ANS --> EVAL[multimodal_evaluation.py - correctness via LLM judge]

@@ -1,0 +1,14 @@
+[
+  {"id": "V01", "question": "What is the minimum fine for offence 20.1 (keeping explosives, arms, narcotics or alcohol on campus)?", "reference_answer": "Fine of Rs 10,000 plus community service for one term.", "gold_page": 15},
+  {"id": "V02", "question": "How many repetitions of offence 20.2 (entering campus inebriated) are allowed before the maximum punishment applies, and what happens to the fine each time?", "reference_answer": "3 repetitions; the fine is multiplied by 2 each time.", "gold_page": 15},
+  {"id": "V03", "question": "What offence number and type is 'Any kind of violence'?", "reference_answer": "Offence 20.8, a Major offence.", "gold_page": 16},
+  {"id": "V04", "question": "What punishment is specified for offence 20.10, Ragging?", "reference_answer": "No fine or repetition count is given (NA/NA); it is to be dealt with as per the directions of the UGC.", "gold_page": 16},
+  {"id": "V05", "question": "What is the fine for offence 20.6 (smoking/vaping or alcohol consumption on campus) and is it Major or Minor?", "reference_answer": "Minor offence; fine of Rs 2,000 plus community service for 1 month.", "gold_page": 16},
+  {"id": "V06", "question": "In the offence table row about failing to check in to campus by 9:00 pm, what offence number is shown?", "reference_answer": "No offence number is printed for that row — it is a known extraction/layout defect where the row's number was lost when the table split across pages 16 and 17.", "gold_page": 17},
+  {"id": "V07", "question": "What fields are on the Hostel Leave Application form?", "reference_answer": "Student's Name, Batch, and duplicate Admin Copy / Student Copy sections for the same fields.", "gold_page": 10},
+  {"id": "V08", "question": "What version number is this handbook, and who is its approving authority?", "reference_answer": "Version 1.0; approving authority is the Governing Body.", "gold_page": 28},
+  {"id": "V09", "question": "List two of the roles credited as developers of handbook version 1.0.", "reference_answer": "Any two of: President, Vice Chancellor, Pro Vice Chancellor – Institutional Impact, Registrar, Director Pastoral Care and Sport Infrastructure, President Student Council — all of Vijaybhoomi University.", "gold_page": 28},
+  {"id": "V10", "question": "What is the minimum fine for offence 20.9, damaging institute property?", "reference_answer": "Fine of Rs 10,000 plus community service for one term (Major offence).", "gold_page": 16},
+  {"id": "V11", "question": "What is the fine amount for offence 20.3, entering or exiting campus without signing the movement register?", "reference_answer": "Fine of Rs 2,000 plus community service for 1 month (Minor offence).", "gold_page": 15},
+  {"id": "V12", "question": "What is the title printed on the handbook's front cover, and what is the dominant cover colour?", "reference_answer": "\"STUDENT HAND BOOK\"; the cover is dominantly red/maroon with the VU logo.", "gold_page": 1}
+]
