@@ -72,6 +72,52 @@ results/                    CSV/JSON metrics written by 03 and 04
 diagrams/*.mmd               architecture diagrams
 ```
 
+## Architecture diagrams
+
+Source files: `diagrams/dual_rag_architecture.mmd` and `diagrams/multimodal_rag_architecture.mmd`.
+
+**Phase 1 — Dual RAG**
+
+```mermaid
+flowchart TD
+    PDF[VU Student Handbook PDF] --> DOC[document.py: extract text + page images]
+    DOC --> EMB[embeddings.py: nomic-embed-text]
+    EMB --> DB[(vector_store.py: shared Chroma index)]
+
+    Q[Question] --> RET[retrieve - same function, same top-k]
+    DB --> RET
+    RET --> CTX[Retrieved chunks - identical for both models]
+
+    CTX --> A[SmolLM2-135M]
+    CTX --> B[Llama 3.2-3B]
+
+    A --> EVAL[evaluation.py]
+    B --> EVAL
+
+    EVAL --> RM[Context Precision / Recall / MRR - from gold pages]
+    EVAL --> GM[Faithfulness / Relevancy / Correctness - gemma3:4b judge]
+```
+
+**Phase 2 — Multimodal RAG**
+
+```mermaid
+flowchart TD
+    Q[Visual question] --> RET[retrieve - same Chroma index as Phase 1]
+    RET --> PAGE[Retrieved page + text]
+
+    TABLES[(data/tables/ - pre-made table images)] --> LOOKUP{Does this page<br/>have a table image?}
+    PAGE --> LOOKUP
+
+    LOOKUP -- yes --> BOTH[Text + table image]
+    LOOKUP -- no --> TXT[Text only]
+
+    BOTH --> VLM[gemma3:4b]
+    TXT --> VLM
+
+    VLM --> ANS[Answer]
+    ANS --> EVAL[multimodal_evaluation.py - correctness via LLM judge]
+```
+
 ### Note on `data/tables/`
 
 This folder holds one cropped image per table page (10, 15, 16, 17, 28) — the offence table, the hostel
