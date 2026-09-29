@@ -11,5 +11,6 @@ dependencies:
     - pandas
     - matplotlib
     - pillow
+    - sentence-transformers
     - jupyter
     - ipykernel
