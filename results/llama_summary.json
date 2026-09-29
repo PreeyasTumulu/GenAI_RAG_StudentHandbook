@@ -5,5 +5,5 @@
   "faithfulness": 0.833,
   "relevancy": 0.8,
   "correctness": 0.9,
-  "latency_seconds": 11.698
+  "latency_seconds": 12.062
 }

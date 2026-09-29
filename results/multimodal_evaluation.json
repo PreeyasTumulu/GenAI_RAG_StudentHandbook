@@ -8,7 +8,7 @@
     "gold_page": 15,
     "image_page_retrieved": 16,
     "image_retrieval_hit": false,
-    "latency_seconds": 1.88,
+    "latency_seconds": 1.98,
     "correctness": 1.0
   },
   {
@@ -20,7 +20,7 @@
     "gold_page": 15,
     "image_page_retrieved": 16,
     "image_retrieval_hit": false,
-    "latency_seconds": 18.91,
+    "latency_seconds": 15.83,
     "correctness": 1.0
   },
   {
@@ -32,7 +32,7 @@
     "gold_page": 16,
     "image_page_retrieved": 16,
     "image_retrieval_hit": true,
-    "latency_seconds": 15.77,
+    "latency_seconds": 13.24,
     "correctness": 1.0
   },
   {
@@ -44,7 +44,7 @@
     "gold_page": 16,
     "image_page_retrieved": 16,
     "image_retrieval_hit": true,
-    "latency_seconds": 16.74,
+    "latency_seconds": 14.26,
     "correctness": 1.0
   },
   {
@@ -56,7 +56,7 @@
     "gold_page": 16,
     "image_page_retrieved": 17,
     "image_retrieval_hit": false,
-    "latency_seconds": 17.32,
+    "latency_seconds": 14.48,
     "correctness": 0.0
   },
   {
@@ -68,7 +68,7 @@
     "gold_page": 17,
     "image_page_retrieved": 10,
     "image_retrieval_hit": false,
-    "latency_seconds": 15.36,
+    "latency_seconds": 17.95,
     "correctness": 0.0
   },
   {
@@ -80,7 +80,7 @@
     "gold_page": 10,
     "image_page_retrieved": 10,
     "image_retrieval_hit": true,
-    "latency_seconds": 20.56,
+    "latency_seconds": 18.67,
     "correctness": 1.0
   },
   {
@@ -92,7 +92,7 @@
     "gold_page": 28,
     "image_page_retrieved": 15,
     "image_retrieval_hit": false,
-    "latency_seconds": 15.3,
+    "latency_seconds": 16.99,
     "correctness": 1.0
   },
   {
@@ -104,7 +104,7 @@
     "gold_page": 28,
     "image_page_retrieved": 28,
     "image_retrieval_hit": true,
-    "latency_seconds": 20.2,
+    "latency_seconds": 13.63,
     "correctness": 1.0
   },
   {
@@ -116,7 +116,7 @@
     "gold_page": 16,
     "image_page_retrieved": 17,
     "image_retrieval_hit": false,
-    "latency_seconds": 17.64,
+    "latency_seconds": 15.39,
     "correctness": 0.0
   },
   {
@@ -128,7 +128,7 @@
     "gold_page": 15,
     "image_page_retrieved": 10,
     "image_retrieval_hit": false,
-    "latency_seconds": 17.75,
+    "latency_seconds": 16.23,
     "correctness": 1.0
   },
   {
@@ -140,7 +140,7 @@
     "gold_page": 1,
     "image_page_retrieved": 28,
     "image_retrieval_hit": false,
-    "latency_seconds": 15.84,
+    "latency_seconds": 13.99,
     "correctness": 0.0
   }
 ]
